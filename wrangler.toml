@@ -1,0 +1,8 @@
+name = "fire-n-forget-backend"
+main = "src/worker.js"
+compatibility_date = "2024-05-28"
+workers_dev = true
+
+kv_namespaces = [
+  { binding = "NOTES", id = "b11fc6d7c0f742cbad507f5b71a7462b" }
+]
